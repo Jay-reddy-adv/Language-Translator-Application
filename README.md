@@ -1,6 +1,6 @@
-**Language Translator App**
+# Language Translator App
 
-🔹 Translate text between multiple languages using the Google Translate API.
+**🔹 Translate text between multiple languages using the Google Translate API.**
 
 **📌 Features**
 
@@ -24,6 +24,12 @@ Splash Screen
 
 
 Translation Screen
+
+![img_alt](https://github.com/Jay-reddy-adv/Language-Translator-Application/blob/b6dcb3da9888204cd23593b80c08236fa6fe2c69/translatepage.jpg)
+
+
+
+
 **
 🔗 API Used
 **
