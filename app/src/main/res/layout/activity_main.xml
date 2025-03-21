@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LANGUAGE TRANSLATOR"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select input lanugage"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        />
+
+    <Spinner
+        android:id="@+id/sourceLanguageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5ECCCCCC"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter text to translate"/>
+
+
+        <ImageView
+            android:id="@+id/microphone"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/microphone"/>
+
+
+    </LinearLayout>
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/inputText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter text to translate"/>-->
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select output lanugage"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/targetLanguageSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D9C7C5C5"
+        android:background="#5ECCCCCC"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Translate"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="click on  '🔊'  icon to hear the translated text"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="12dp"/>
+
+            <ImageView
+                android:id="@+id/speakerid"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/speakerimg"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/translatedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Translation will appear here"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="20dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
