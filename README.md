@@ -1,8 +1,8 @@
 # Language Translator App
 
-#**🔹 Translate text between multiple languages using the Google Translate API.**
+**🔹 Translate text between multiple languages using the Google Translate API.**
 
-#**📌 Features**
+**📌 Features**
 
 ✔️ Text Translation: Supports translation between multiple languages.
 
@@ -15,7 +15,7 @@
 ✔️ User-friendly UI: Simple and intuitive design.
 
 
-#**📱 Screenshots**
+**📱 Screenshots**
 
 
 Splash Screen
@@ -29,12 +29,12 @@ Translation Screen
 
 
 
+** 🔗 API Used **
 
-#** 🔗 API Used **
 
-Google Translate API for text translation.
+✔️ Google Translate API for text translation.
 
-Android SpeechRecognizer API for Speech-to-Text.
+✔️ Android SpeechRecognizer API for Speech-to-Text.
 
-TextToSpeech API for reading the translated text aloud.
+✔️ TextToSpeech API for reading the translated text aloud.
 
