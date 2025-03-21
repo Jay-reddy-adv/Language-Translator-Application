@@ -1,6 +1,6 @@
 # Language Translator App
 
-**🔹 Translate text between multiple languages using the Google Translate API.**
+**🔹 Translates text between multiple languages using the Google Translate API.**
 
 **📌 Features**
 
