@@ -13,3 +13,5 @@
 ✔️ Telugu & Kannada Support: Enhanced support for regional languages.
 
 ✔️ User-friendly UI: Simple and intuitive design.
+
+![img_alt](https://github.com/Jay-reddy-adv/Language-Translator-Application/blob/d6536f3d45cd419700e9ad269b4183dd1e4d82e0/splashscreen.jpg)
